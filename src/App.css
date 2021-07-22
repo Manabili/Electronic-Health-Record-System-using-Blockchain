@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.demo {
+  margin-bottom: 25pt;
+  margin-left: 100pt;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.home_margin {
+  margin-left: 300px;
+  font-size : 300 px;
+}
+
+
+body {
+  background-color: pink;
+  font-size : 30 px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.log_lh1 {
+  background-color: green;
+  width : 500px;
+  height : 80px;
+  font-size : 30px;
+  font-weight: bold;
+}
+
+.log_ld1 {
+  background-color: green;
+  width : 500px;
+  height : 80px;
+  font-size : 30px;
+  font-weight: bold;
+}
+
+.log_lp1 {
+  background-color: green;
+  width : 500px;
+  height : 80px;
+  font-size : 30px;
+  font-weight: bold;
+}
+
+.log_rh1 {
+  background-color: green;
+  width : 500px;
+  height : 80px;
+  font-size : 30px;
+  font-weight: bold;
+}
+
+.log_rd1 {
+  background-color: green;
+  width : 500px;
+  height : 80px;
+  font-size : 30px;
+  font-weight: bold;
+}
+
+.log_rp1 {
+  background-color: green;
+  width : 500px;
+  height : 80px;
+  font-size : 30px;
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
